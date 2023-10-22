@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{be9bfd11-1a2c-4e9c-969d-12499ca36666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{9f8b27c0-9b93-4fd0-ba82-3dd5030adc2b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>Source</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

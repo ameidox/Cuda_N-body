@@ -1,0 +1,1 @@
+C:\Users\iddo\source\repos\CudaNBody\CudaNBody\x64\Debug\CudaNBody.vcxproj.CopyComplete

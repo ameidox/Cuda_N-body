@@ -1,6 +1,3 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
@@ -13,12 +10,8 @@
 
 # Compiled Dynamic libraries
 *.so
+*.so.*
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
@@ -30,3 +23,20 @@
 *.exe
 *.out
 *.app
+*.dll
+
+# CUDA specific
+*.cubin
+*.ptx
+*.fatbin
+*.fatbin.c
+
+# Other
+*.log
+
+# IDE related (for example, if you're using Visual Studio)
+.vscode/
+*.vscode/
+*.vs/
+*.suo
+*.user
